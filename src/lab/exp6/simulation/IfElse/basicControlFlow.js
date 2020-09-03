@@ -418,35 +418,35 @@ window.view = {
 		}
 		if (this.nextSiblingElement.id === 'codeContentIfElseIf3Id')			
 			this.codeExecutionWithColourAndId('codeContentIfElseIf3aId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && model.valueOfX < 50) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && model.valueOfX < 75) 
 			this.changeFlagValue('flagValue1', 'codeContentIfElseIf5Id', '0');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && model.valueOfX > 250) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && model.valueOfX > 275) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf3cId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf3dId' && model.valueOfX > 250) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf3dId' && model.valueOfX > 275) 
 			this.changeFlagValue('flagValue1', 'codeContentIfElseIf5Id', '0');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && (50 <= model.valueOfX) && (model.valueOfX <= 250)) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf3bId' && (75 <= model.valueOfX) && (model.valueOfX <= 275)) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf3cId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf3dId' && (50 <= model.valueOfX) && (model.valueOfX <= 275)) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf3dId' && (75 <= model.valueOfX) && (model.valueOfX <= 275)) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf7aId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && model.valueOfY < 50) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && model.valueOfY < 75) 
 			this.changeFlagValue('flagValue1', 'codeContentIfElseIf9Id', '0');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && model.valueOfY > 300) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && model.valueOfY > 325) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf7cId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf7dId' && model.valueOfY > 300) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf7dId' && model.valueOfY > 325) 
 			this.changeFlagValue('flagValue1', 'codeContentIfElseIf9Id', '0');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && (50 <= model.valueOfY) && (model.valueOfY <= 300)) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf7bId' && (75 <= model.valueOfY) && (model.valueOfY <= 325)) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf7cId');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf7dId' && (50 <= model.valueOfX) && (model.valueOfX <= 250) && (50 <= model.valueOfY) && (model.valueOfY <= 300)) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf7dId' && (75 <= model.valueOfX) && (model.valueOfX <= 275) && (75 <= model.valueOfY) && (model.valueOfY <= 325)) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf11Id');
-		if ((this.nextSiblingElement.id === 'codeContentIfElseIf12Id' || this.nextSiblingElement.id === 'codeContentIfElseIf14Id' || this.nextSiblingElement.id === 'codeContentIfElseIf16Id') && (50 <= model.valueOfX) && (model.valueOfX <= 250) && (50 <= model.valueOfY) && (model.valueOfY <= 300))	{
+		if ((this.nextSiblingElement.id === 'codeContentIfElseIf12Id' || this.nextSiblingElement.id === 'codeContentIfElseIf14Id' || this.nextSiblingElement.id === 'codeContentIfElseIf16Id') && (75 <= model.valueOfX) && (model.valueOfX <= 275) && (75 <= model.valueOfY) && (model.valueOfY <= 325))	{
 			this.changeFlagValue('flagValue1', this.nextOfnextSiblingElement.id, '1');
-			if ((this.nextSiblingElement.id === 'codeContentIfElseIf16Id') && (50 <= model.valueOfX) && (model.valueOfX <= 250) && (50 <= model.valueOfY) && (model.valueOfY <= 300)) {
+			if ((this.nextSiblingElement.id === 'codeContentIfElseIf16Id') && (75 <= model.valueOfX) && (model.valueOfX <= 275) && (75 <= model.valueOfY) && (model.valueOfY <= 325)) {
 				this.displayTextWithColour('Output: INSIDE', 100, 40, '#FF2400');
 			}
 		}
 		if (this.nextSiblingElement.id ==='codeContentIfElseIf6Id' || this.nextSiblingElement.id ==='codeContentIfElseIf10Id') 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf15Id');
-		if (this.nextSiblingElement.id === 'codeContentIfElseIf16Id' && !((50 <= model.valueOfX) && (model.valueOfX <= 250) && (50 <= model.valueOfY) && (model.valueOfY <= 300))) 
+		if (this.nextSiblingElement.id === 'codeContentIfElseIf16Id' && !((75 <= model.valueOfX) && (model.valueOfX <= 275) && (75 <= model.valueOfY) && (model.valueOfY <= 325))) 
 			this.codeExecutionWithColourAndId('codeContentIfElseIf19Id');
 		if (this.nextSiblingElement.id === 'codeContentIfElseIf20Id') {
 			this.codeExecutionWithColourAndId('codeContentIfElseIf21Id');
